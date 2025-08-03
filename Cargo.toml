@@ -1,0 +1,11 @@
+[package]
+name = "tool_registry"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tool_interface = { path = "../tool_interface" }
+libloading = "0.7"
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+cfg-if = "1.0"
