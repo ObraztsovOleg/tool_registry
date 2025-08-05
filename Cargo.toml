@@ -7,5 +7,5 @@ edition = "2024"
 tool_interface = { path = "../tool_interface" }
 libloading = "0.7"
 serde_json = "1.0"
-tokio = { version = "1.0", features = ["full"] }
+tokio = { version = "1.45.1", features = ["full"] }
 cfg-if = "1.0"
